@@ -1,0 +1,18 @@
+Bhai ek cheez yaad rakhna abhi tak ham sirf simple text file main kaam karte the 
+
+lekin agar hame binary file main kaam karenge to hame
+b ka use karna padega
+
+for example --  b'nchi4X4M4'
+
+aur
+1.w+ -- To write and read the file
+2. r+ -- To read and write in the file
+3.a+ -- to read and write in the file
+
+Note -- yaad rakhna ki apnko f.seek(0) use karna padega write ke bad agar apko read karna hai to 
+nahi to kuch likha nahi ayega
+
+
+f.seek likhna jaruri hai
+
